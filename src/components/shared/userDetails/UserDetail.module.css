@@ -1,0 +1,21 @@
+.listContainer{
+  display: flex;
+  gap:20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin:20px auto;
+}
+
+.postContainer{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  margin-block: 20px;
+}
+
+@media screen and (max-width: 1035px) {
+  .listContainer {
+    gap:10px;
+  }
+}
